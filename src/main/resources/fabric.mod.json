@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "experience-enchantment",
+  "version": "${version}",
+  "name": "Experience Enchantment",
+  "description": "Adds an enchantment to plethora of tools for gaining extra experience points.",
+  "authors": [
+    "yukii"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.yukii.experienceenchantment.ExperienceEnchantmentMain"
+    ],
+    "mm:early_risers": [
+      "com.yukii.experienceenchantment.asm.EarlyRiser"
+    ]
+  },
+  "mixins": [
+    "experience-enchantment.mixins.json"
+  ],
+
+  "accessWidener" : "experience-enchantment.accesswidener",
+
+  "depends": {
+    "fabricloader": ">=0.14.14",
+    "fabric": "*",
+    "minecraft": ">=1.19.3",
+    "mm": ">=2.3"
+  }
+}
