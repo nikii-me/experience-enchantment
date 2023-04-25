@@ -25,9 +25,9 @@
   "accessWidener" : "experience-enchantment.accesswidener",
 
   "depends": {
-    "fabricloader": ">=0.14.14",
+    "fabricloader": ">=0.14.19",
     "fabric": "*",
-    "minecraft": ">=1.19.3",
+    "minecraft": ">=1.19.4",
     "mm": ">=2.3"
   }
 }
